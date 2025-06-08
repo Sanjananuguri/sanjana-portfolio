@@ -2,36 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sanjana Nuguri - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanjana Nuguri | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar">
     <div class="container">
-      <a href="index.html" class="logo">Sanjana Nuguri</a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <h1 class="logo">Sanjana Nuguri</h1>
+      <ul class="nav-menu">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <header class="hero">
-    <div class="container">
-      <h1>Hi, I'm Sanjana</h1>
-      <p>Aspiring Cybersecurity Analyst | Passionate about Securing the Digital World</p>
-      <a href="projects.html" class="btn">View My Projects</a>
+    <div class="container hero-content">
+      <img src="assets/sanjana-photo.jpg" alt="Sanjana Photo" class="hero-img">
+      <div class="hero-text">
+        <h2>Hi, I'm Sanjana</h2>
+        <p>Cybersecurity Enthusiast | GRC & Vulnerability Testing</p>
+      </div>
     </div>
   </header>
 
-  <footer>
+  <section id="education" class="section">
     <div class="container">
-      <p>© 2025 Sanjana Nuguri. All rights reserved.</p>
+      <h2>Education</h2>
+      <p><strong>Master of Science in Cybersecurity</strong><br>University Name – May 2025</p>
     </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <p><strong>Cybersecurity Intern</strong> – XYZ Org<br>Worked on SIEM tools, vulnerability scans, and GRC tasks.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Brute Force Detection – Splunk</strong></li>
+        <li><strong>Vulnerability Scan Automation – Python + OpenVAS</strong></li>
+        <li><strong>Packet Analysis – Wireshark</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Publications</h2>
+      <p>Coming Soon</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:sanjana@example.com">sanjana@example.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/sanjananuguri" target="_blank">linkedin.com/in/sanjananuguri</a></li>
+        <li>GitHub: <a href="https://github.com/Sanjananuguri" target="_blank">github.com/Sanjananuguri</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Sanjana Nuguri</p>
   </footer>
 </body>
 </html>
