@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Projects</title></head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Sanjana Nuguri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 <body>
-  <h1>Projects</h1>
-  <nav><a href="index.html">Home</a></nav>
-  <ul>
-    <li><strong>Brute Force Detection in Splunk</strong>: <a href="https://github.com/Sanjananuguri/BruteForce-Detection-Splunk">View on GitHub</a></li>
-    <li><strong>OWASP Juice Shop Assessment</strong>: Web vulnerabilities testing</li>
-    <li><strong>SIEM & Endpoint Security</strong>: AlienVault OSSIM, Windows Defender, CrowdStrike</li>
-    <li><strong>ML Practice Platform</strong>: AWS hosted ML challenge platform</li>
-  </ul>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Sanjana Nuguri</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="projects container">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+      <h3>Brute Force Detection - Splunk</h3>
+      <p>A project to detect brute force attacks using Splunk queries and alerts.</p>
+      <a href="https://github.com/Sanjananuguri/BruteForce-Detection-Splunk" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Network Traffic Analysis</h3>
+      <p>Analyzed network traffic captures using Wireshark to identify suspicious patterns.</p>
+      <!-- Replace with your actual project link if you have -->
+      <a href="#" class="btn disabled">Coming Soon</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Vulnerability Scanning Automation</h3>
+      <p>Automated vulnerability scanning process using Python scripts and OpenVAS API.</p>
+      <a href="#" class="btn disabled">Coming Soon</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Sanjana Nuguri. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
